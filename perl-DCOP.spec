@@ -4,7 +4,7 @@
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
 Release:    %mkrel 2
-Epoch:      1
+Epoch:      2
 
 Summary:    Extensible inheritable class to dcop
 License:    GPL+ or Artistic
@@ -12,9 +12,9 @@ Group:      Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module//%{upstream_name}-%{upstream_version}.tar.gz
 
-
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
+
 
 %description
 This class is meant to be a base constructor for higher level of
